@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[FastAPI](https://fastapi.tiangolo.com/) implementation for managing mock list of players. This mock list of players has been adjusted with randomized skill attributes and originatefrom [data.world](https://data.world/raghav333/fifa-players).
+[FastAPI](https://fastapi.tiangolo.com/) implementation for managing mock list of players. This mock list of players has been adjusted with randomized skill attributes and originate from [data.world](https://data.world/raghav333/fifa-players).
 
 ## Instructions
 
