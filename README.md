@@ -32,6 +32,7 @@ This will load an [ASGI](https://asgi.readthedocs.io/en/latest/) server at:
 
 ```console
 python test_api.py
+```
 
 ### Test output:
 
