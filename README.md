@@ -34,7 +34,7 @@ The current setting only reads 15 players from the mock data file:
 
 https://github.com/pdave34/fifa_players_api/blob/7a76406559063b84d457d3c4894eb3923f9493a5/main.py#L36
 
-### Run tests:
+### Run test:
 
 ```console
 python test_api.py
