@@ -2,7 +2,7 @@
 
 ## Introduction
 
-FastAPI implementation for managing mock list of players. This mock list of players has been adjusted with randomized skill attributes and originatefrom [data.world](https://data.world/raghav333/fifa-players).
+[FastAPI](https://fastapi.tiangolo.com/) implementation for managing mock list of players. This mock list of players has been adjusted with randomized skill attributes and originatefrom [data.world](https://data.world/raghav333/fifa-players).
 
 ## Instructions
 
@@ -14,7 +14,7 @@ FastAPI implementation for managing mock list of players. This mock list of play
 pip install -r requirements.txt
 ```
 
-### Run uvicorn:
+### Run [uvicorn](https://www.uvicorn.org/):
 
 ```console
 uvicorn main:app --reload
