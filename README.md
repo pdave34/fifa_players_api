@@ -37,4 +37,3 @@ python test_api.py
 ### Test output:
 
 Output of `test_api.py` is available in `test_api_out.txt` for reference.
-```
