@@ -6,7 +6,7 @@ FastAPI implementation for managing mock list of players. This mock list of play
 
 ## Instructions
 
-### produced in Python 3.12.1
+## Install Python 3.12.1
 
 ## Install required packages:
 
@@ -18,4 +18,22 @@ pip install -r requirements.txt
 
 ```console
 uvicorn main:app --reload
+```
+
+This will load an [ASGI](https://asgi.readthedocs.io/en/latest/) server at:
+
+> http://127.0.0.1:8000
+
+## Visit documentation:
+
+> http://127.0.0.1:8000/docs
+
+## Run tests:
+
+```console
+python test_api.py
+
+## Test output:
+
+Output of `test_api.py` is available in `test_api_out.txt` for reference.
 ```
