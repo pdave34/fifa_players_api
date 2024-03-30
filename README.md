@@ -39,3 +39,13 @@ python test_api.py
 ```
 
 Output of `test_api.py` is available in `test_api_out.txt` for reference.
+
+## Features
+
+- List
+- Add
+- Query by id
+- Update by id
+- Delete by id
+- Query best player for a skill in a position
+- Query best players for a skill in multiple positions
