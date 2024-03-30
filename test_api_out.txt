@@ -1,0 +1,508 @@
+----------------------------------------------------------------------------------------------------
+Listing all players:
+----------------------------------------------------------------------------------------------------
+{
+  "players": {
+    "0": {
+      "id": 0,
+      "name": "L. Messi",
+      "position": "forward",
+      "skills": {
+        "attack": 37.0,
+        "defense": 32.0,
+        "speed": 17.0,
+        "stamina": 73.0,
+        "strength": 56.0
+      }
+    },
+    "1": {
+      "id": 1,
+      "name": "C. Eriksen",
+      "position": "midfielder",
+      "skills": {
+        "attack": 35.0,
+        "defense": 79.0,
+        "speed": 51.0,
+        "stamina": 99.0,
+        "strength": 14.0
+      }
+    },
+    "2": {
+      "id": 2,
+      "name": "P. Pogba",
+      "position": "midfielder",
+      "skills": {
+        "attack": 43.0,
+        "defense": 35.0,
+        "speed": 65.0,
+        "stamina": 33.0,
+        "strength": 56.0
+      }
+    },
+    "3": {
+      "id": 3,
+      "name": "L. Insigne",
+      "position": "forward",
+      "skills": {
+        "attack": 10.0,
+        "defense": 98.0,
+        "speed": 54.0,
+        "stamina": 72.0,
+        "strength": 38.0
+      }
+    },
+    "4": {
+      "id": 4,
+      "name": "K. Koulibaly",
+      "position": "defender",
+      "skills": {
+        "attack": 84.0,
+        "defense": 39.0,
+        "speed": 42.0,
+        "stamina": 84.0,
+        "strength": 65.0
+      }
+    },
+    "5": {
+      "id": 5,
+      "name": "V. van Dijk",
+      "position": "defender",
+      "skills": {
+        "attack": 42.0,
+        "defense": 68.0,
+        "speed": 11.0,
+        "stamina": 50.0,
+        "strength": 46.0
+      }
+    },
+    "6": {
+      "id": 6,
+      "name": "E. Cavani",
+      "position": "forward",
+      "skills": {
+        "attack": 15.0,
+        "defense": 46.0,
+        "speed": 43.0,
+        "stamina": 82.0,
+        "strength": 96.0
+      }
+    },
+    "7": {
+      "id": 7,
+      "name": "Sergio Busquets",
+      "position": "midfielder",
+      "skills": {
+        "attack": 17.0,
+        "defense": 84.0,
+        "speed": 28.0,
+        "stamina": 42.0,
+        "strength": 53.0
+      }
+    },
+    "8": {
+      "id": 8,
+      "name": "A. Griezmann",
+      "position": "forward",
+      "skills": {
+        "attack": 76.0,
+        "defense": 24.0,
+        "speed": 43.0,
+        "stamina": 64.0,
+        "strength": 20.0
+      }
+    },
+    "9": {
+      "id": 9,
+      "name": "M. Salah",
+      "position": "forward",
+      "skills": {
+        "attack": 57.0,
+        "defense": 32.0,
+        "speed": 88.0,
+        "stamina": 36.0,
+        "strength": 77.0
+      }
+    },
+    "10": {
+      "id": 10,
+      "name": "P. Dybala",
+      "position": "forward",
+      "skills": {
+        "attack": 78.0,
+        "defense": 29.0,
+        "speed": 90.0,
+        "stamina": 48.0,
+        "strength": 30.0
+      }
+    },
+    "11": {
+      "id": 11,
+      "name": "Fernandinho",
+      "position": "midfielder",
+      "skills": {
+        "attack": 23.0,
+        "defense": 88.0,
+        "speed": 64.0,
+        "stamina": 82.0,
+        "strength": 91.0
+      }
+    },
+    "12": {
+      "id": 12,
+      "name": "J. Vertonghen",
+      "position": "defender",
+      "skills": {
+        "attack": 86.0,
+        "defense": 29.0,
+        "speed": 31.0,
+        "stamina": 45.0,
+        "strength": 69.0
+      }
+    },
+    "13": {
+      "id": 13,
+      "name": "T. Alderweireld",
+      "position": "defender",
+      "skills": {
+        "attack": 79.0,
+        "defense": 95.0,
+        "speed": 66.0,
+        "stamina": 27.0,
+        "strength": 96.0
+      }
+    },
+    "14": {
+      "id": 14,
+      "name": "Jordi Alba",
+      "position": "defender",
+      "skills": {
+        "attack": 29.0,
+        "defense": 65.0,
+        "speed": 48.0,
+        "stamina": 10.0,
+        "strength": 92.0
+      }
+    }
+  }
+}
+----------------------------------------------------------------------------------------------------
+Adding a player:
+----------------------------------------------------------------------------------------------------
+{
+  "added": {
+    "id": 4,
+    "name": "Beckham",
+    "position": "midfielder",
+    "skills": {
+      "attack": 90.0,
+      "defense": 70.0
+    }
+  }
+}
+----------------------------------------------------------------------------------------------------
+Get player id = 2:
+----------------------------------------------------------------------------------------------------
+{
+  "id": 2,
+  "name": "P. Pogba",
+  "position": "midfielder",
+  "skills": {
+    "attack": 43.0,
+    "defense": 35.0,
+    "speed": 65.0,
+    "stamina": 33.0,
+    "strength": 56.0
+  }
+}
+----------------------------------------------------------------------------------------------------
+Update player id = 0 to midfielder:
+----------------------------------------------------------------------------------------------------
+{
+  "updated": {
+    "id": 0,
+    "name": "L. Messi",
+    "position": "midfielder",
+    "skills": {
+      "attack": 37.0,
+      "defense": 32.0,
+      "speed": 17.0,
+      "stamina": 73.0,
+      "strength": 56.0
+    }
+  }
+}
+----------------------------------------------------------------------------------------------------
+Deleting player id = 4
+----------------------------------------------------------------------------------------------------
+{
+  "deleted": {
+    "id": 1,
+    "name": "C. Eriksen",
+    "position": "midfielder",
+    "skills": {
+      "attack": 35.0,
+      "defense": 79.0,
+      "speed": 51.0,
+      "stamina": 99.0,
+      "strength": 14.0
+    }
+  }
+}
+----------------------------------------------------------------------------------------------------
+Listing all players:
+----------------------------------------------------------------------------------------------------
+{
+  "players": {
+    "0": {
+      "id": 0,
+      "name": "L. Messi",
+      "position": "midfielder",
+      "skills": {
+        "attack": 37.0,
+        "defense": 32.0,
+        "speed": 17.0,
+        "stamina": 73.0,
+        "strength": 56.0
+      }
+    },
+    "2": {
+      "id": 2,
+      "name": "P. Pogba",
+      "position": "midfielder",
+      "skills": {
+        "attack": 43.0,
+        "defense": 35.0,
+        "speed": 65.0,
+        "stamina": 33.0,
+        "strength": 56.0
+      }
+    },
+    "3": {
+      "id": 3,
+      "name": "L. Insigne",
+      "position": "forward",
+      "skills": {
+        "attack": 10.0,
+        "defense": 98.0,
+        "speed": 54.0,
+        "stamina": 72.0,
+        "strength": 38.0
+      }
+    },
+    "4": {
+      "id": 4,
+      "name": "Beckham",
+      "position": "midfielder",
+      "skills": {
+        "attack": 90.0,
+        "defense": 70.0
+      }
+    },
+    "5": {
+      "id": 5,
+      "name": "V. van Dijk",
+      "position": "defender",
+      "skills": {
+        "attack": 42.0,
+        "defense": 68.0,
+        "speed": 11.0,
+        "stamina": 50.0,
+        "strength": 46.0
+      }
+    },
+    "6": {
+      "id": 6,
+      "name": "E. Cavani",
+      "position": "forward",
+      "skills": {
+        "attack": 15.0,
+        "defense": 46.0,
+        "speed": 43.0,
+        "stamina": 82.0,
+        "strength": 96.0
+      }
+    },
+    "7": {
+      "id": 7,
+      "name": "Sergio Busquets",
+      "position": "midfielder",
+      "skills": {
+        "attack": 17.0,
+        "defense": 84.0,
+        "speed": 28.0,
+        "stamina": 42.0,
+        "strength": 53.0
+      }
+    },
+    "8": {
+      "id": 8,
+      "name": "A. Griezmann",
+      "position": "forward",
+      "skills": {
+        "attack": 76.0,
+        "defense": 24.0,
+        "speed": 43.0,
+        "stamina": 64.0,
+        "strength": 20.0
+      }
+    },
+    "9": {
+      "id": 9,
+      "name": "M. Salah",
+      "position": "forward",
+      "skills": {
+        "attack": 57.0,
+        "defense": 32.0,
+        "speed": 88.0,
+        "stamina": 36.0,
+        "strength": 77.0
+      }
+    },
+    "10": {
+      "id": 10,
+      "name": "P. Dybala",
+      "position": "forward",
+      "skills": {
+        "attack": 78.0,
+        "defense": 29.0,
+        "speed": 90.0,
+        "stamina": 48.0,
+        "strength": 30.0
+      }
+    },
+    "11": {
+      "id": 11,
+      "name": "Fernandinho",
+      "position": "midfielder",
+      "skills": {
+        "attack": 23.0,
+        "defense": 88.0,
+        "speed": 64.0,
+        "stamina": 82.0,
+        "strength": 91.0
+      }
+    },
+    "12": {
+      "id": 12,
+      "name": "J. Vertonghen",
+      "position": "defender",
+      "skills": {
+        "attack": 86.0,
+        "defense": 29.0,
+        "speed": 31.0,
+        "stamina": 45.0,
+        "strength": 69.0
+      }
+    },
+    "13": {
+      "id": 13,
+      "name": "T. Alderweireld",
+      "position": "defender",
+      "skills": {
+        "attack": 79.0,
+        "defense": 95.0,
+        "speed": 66.0,
+        "stamina": 27.0,
+        "strength": 96.0
+      }
+    },
+    "14": {
+      "id": 14,
+      "name": "Jordi Alba",
+      "position": "defender",
+      "skills": {
+        "attack": 29.0,
+        "defense": 65.0,
+        "speed": 48.0,
+        "stamina": 10.0,
+        "strength": 92.0
+      }
+    }
+  }
+}
+----------------------------------------------------------------------------------------------------
+Querying fastest forward:
+----------------------------------------------------------------------------------------------------
+{
+  "query": {
+    "position": "forward",
+    "skill": "speed"
+  },
+  "selection": {
+    "id": 10,
+    "name": "P. Dybala",
+    "position": "forward",
+    "skills": {
+      "attack": 78.0,
+      "defense": 29.0,
+      "speed": 90.0,
+      "stamina": 48.0,
+      "strength": 30.0
+    }
+  }
+}
+----------------------------------------------------------------------------------------------------
+Querying strongest midfielder:
+----------------------------------------------------------------------------------------------------
+{
+  "query": {
+    "position": "midfielder",
+    "skill": "strength"
+  },
+  "selection": {
+    "id": 11,
+    "name": "Fernandinho",
+    "position": "midfielder",
+    "skills": {
+      "attack": 23.0,
+      "defense": 88.0,
+      "speed": 64.0,
+      "stamina": 82.0,
+      "strength": 91.0
+    }
+  }
+}
+----------------------------------------------------------------------------------------------------
+Querying best players (fastest forward, midfielder, and defender):
+----------------------------------------------------------------------------------------------------
+{
+  "skill": "speed",
+  "selection": [
+    {
+      "id": 10,
+      "name": "P. Dybala",
+      "position": "forward",
+      "skills": {
+        "attack": 78.0,
+        "defense": 29.0,
+        "speed": 90.0,
+        "stamina": 48.0,
+        "strength": 30.0
+      }
+    },
+    {
+      "id": 2,
+      "name": "P. Pogba",
+      "position": "midfielder",
+      "skills": {
+        "attack": 43.0,
+        "defense": 35.0,
+        "speed": 65.0,
+        "stamina": 33.0,
+        "strength": 56.0
+      }
+    },
+    {
+      "id": 13,
+      "name": "T. Alderweireld",
+      "position": "defender",
+      "skills": {
+        "attack": 79.0,
+        "defense": 95.0,
+        "speed": 66.0,
+        "stamina": 27.0,
+        "strength": 96.0
+      }
+    }
+  ]
+}
