@@ -1,4 +1,4 @@
-# fifa_players_api
+# fifa players api
 
 ## Introduction
 
