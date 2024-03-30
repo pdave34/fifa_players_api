@@ -6,7 +6,7 @@
 
 ## Instructions
 
-### Install Python 3.12.1
+Install Python 3.12.1
 
 ### Install required packages:
 
