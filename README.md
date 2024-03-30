@@ -6,15 +6,13 @@
 
 ## Instructions
 
-Install Python 3.12.1
-
-### Install required packages:
+ - Install Python 3.12.1 and the required packages:
 
 ```python
 pip install -r requirements.txt
 ```
 
-### Run [uvicorn](https://www.uvicorn.org/):
+- Run [uvicorn](https://www.uvicorn.org/):
 
 ```console
 uvicorn main:app --reload
@@ -34,12 +32,12 @@ The current setting only reads 15 players from the mock data file:
 
 https://github.com/pdave34/fifa_players_api/blob/7a76406559063b84d457d3c4894eb3923f9493a5/main.py#L36
 
-### Run test:
+- Run test:
 
 ```console
 python test_api.py
 ```
 
-### Test output:
+- Test output:
 
 Output of `test_api.py` is available in `test_api_out.txt` for reference.
