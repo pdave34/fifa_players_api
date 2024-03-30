@@ -236,15 +236,12 @@ Deleting player id = 4
 ----------------------------------------------------------------------------------------------------
 {
   "deleted": {
-    "id": 1,
-    "name": "C. Eriksen",
+    "id": 4,
+    "name": "Beckham",
     "position": "midfielder",
     "skills": {
-      "attack": 35.0,
-      "defense": 79.0,
-      "speed": 51.0,
-      "stamina": 99.0,
-      "strength": 14.0
+      "attack": 90.0,
+      "defense": 70.0
     }
   }
 }
@@ -263,6 +260,18 @@ Listing all players:
         "speed": 17.0,
         "stamina": 73.0,
         "strength": 56.0
+      }
+    },
+    "1": {
+      "id": 1,
+      "name": "C. Eriksen",
+      "position": "midfielder",
+      "skills": {
+        "attack": 35.0,
+        "defense": 79.0,
+        "speed": 51.0,
+        "stamina": 99.0,
+        "strength": 14.0
       }
     },
     "2": {
@@ -287,15 +296,6 @@ Listing all players:
         "speed": 54.0,
         "stamina": 72.0,
         "strength": 38.0
-      }
-    },
-    "4": {
-      "id": 4,
-      "name": "Beckham",
-      "position": "midfielder",
-      "skills": {
-        "attack": 90.0,
-        "defense": 70.0
       }
     },
     "5": {
